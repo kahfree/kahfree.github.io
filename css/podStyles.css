@@ -1,0 +1,40 @@
+/*Wanted the podcast to have a more unique look to it than the main website, hence giving it a stylesheet of it's own*/
+
+body{
+    font-family:sans-serif;
+}
+
+#heroImage{
+    margin:auto;
+    position: relative;
+    width:100%;
+    z-index: -1;
+}
+
+#tagline{
+    position: absolute;
+    z-index: 1;
+    margin-top:-7em;
+    margin-left:20em;
+    color:white;
+}
+
+#sectionHeader{
+    font-size:3em;
+    margin-left:15%;
+}
+
+.episode{
+    width:60%;
+    margin:auto;
+}
+
+.episode .description{
+    font-size:1.3em;
+}
+
+.episode audio{
+    border-radius: 0%;
+    background-color:black;
+    
+}

@@ -10203,6 +10203,16 @@ h3 {
   opacity: 1;
 }
 
+#podcastLink{
+  text-decoration: none;
+  color:white;
+}
+
+#podcastLink:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
