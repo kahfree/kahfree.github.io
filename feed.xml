@@ -30,7 +30,7 @@
 	<itunes:explicit>yes</itunes:explicit>
     <itunes:image href="https://i.imgur.com/3PjArAL.png"/>
     <image>
-        <urlhttps://i.imgur.com/3PjArAL.png</url>
+        <url>https://i.imgur.com/3PjArAL.png</url>
         <title>Chat Lab Podcast</title>
         <link>https://kahfree.github.io/podcast.html</link>
         <width>144</width>
