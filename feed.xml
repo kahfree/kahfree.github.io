@@ -1,112 +1,100 @@
-<rss version="2.0">
-<link type="text/css" rel="stylesheet" id="dark-mode-general-link"/>
-<link type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
-<style type="text/css" id="dark-mode-custom-style"/>
-<channel>
-<title>Chat Lab Podcast</title>
-<atom:link href="https://kahfree.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<link>https://kahfree.github.io</link>
-<description>
-This is Chat Lab, where thoughts are tested & subjects are studied.
-</description>
-<pubDate>Thu, 16 Jul 2020 23:59:09 +0200</pubDate>
-<language>en</language>
-<copyright>Copyright 2020 All rights reserved.</copyright>
-<category>Leisure</category>
-<ttl>1440</ttl>
-<itunes:type>episodic</itunes:type>
-<itunes:subtitle>
-The podcast where thoughts are tested and subjects are studied
-</itunes:subtitle>
-<itunes:summary/>
-<itunes:author>Chat Lab</itunes:author>
-<itunes:category text="Leisure"/>
-<itunes:category text="TV & Film"/>
-<itunes:category text="Leisure">
-<itunes:category text="Games"/>
-</itunes:category>
-<itunes:owner>
-<itunes:name>Chat Lab</itunes:name>
-<itunes:email>chatlabbusiness@gmail.com</itunes:email>
-</itunes:owner>
-<itunes:block>No</itunes:block>
-<itunes:explicit>yes</itunes:explicit>
-<itunes:image href="assets/img/podcast/ChatLab1400px.png"/>
-<image>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="podbean/5.5" -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:spotify="http://www.spotify.com/ns/rss" xmlns:media="http://search.yahoo.com/mrss/">
 
-<title>Chat Lab Podcast</title>
-<link>https://kahfree.github.io/podcast</link>
-<width>144</width>
-<height>144</height>
-</image>
-<item>
-<title>Our Job Experiences | Chat Lab Ep.2</title>
-<itunes:title>Our Job Experiences | Chat Lab Ep.2</itunes:title>
-<link>
-https://kahfree.github.io/podcast
-</link>
-<pubDate>Thu, 16 Jul 2020 23:59:09 +0200</pubDate>
-<guid isPermaLink="false">
-ChatLab.podbean.com/b755d100-0c9a-5f0a-8cea-1c94138ee63c
-</guid>
-<description>
-<p>Join Evan & Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire & more!</p>
-</description>
-<content:encoded>
-<p>Join Evan & Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire & more!</p>
-</content:encoded>
-<enclosure url="https://mcdn.podbean.com/mf/web/zb2hx6/ChatLabEp2_online-audio-convertercom__9n1dr.mp3" length="55578259" type="audio/mpeg"/>
-<itunes:subtitle>
-Join Evan & Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire & more!
-</itunes:subtitle>
-<itunes:summary>
-Join Evan & Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire & more!
-</itunes:summary>
-<itunes:author>Chat Lab</itunes:author>
-<itunes:explicit>yes</itunes:explicit>
-<itunes:block>No</itunes:block>
-<itunes:duration>57:53</itunes:duration>
-<itunes:episode>2</itunes:episode>
-<itunes:episodeType>full</itunes:episodeType>
-<itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/9006352/Chatlab1400px.png"/>
-</item>
-<item>
-<title>
-What is the best sleeping position? | Chat Lab Ep.1
-</title>
-<itunes:title>
-What is the best sleeping position? | Chat Lab Ep.1
-</itunes:title>
-<link>
-https://ChatLab.podbean.com/e/what-is-the-best-sleeping-position-chat-lab-ep1/
-</link>
-<comments>
-https://ChatLab.podbean.com/e/what-is-the-best-sleeping-position-chat-lab-ep1/#comments
-</comments>
-<pubDate>Fri, 10 Jul 2020 00:14:19 +0200</pubDate>
-<guid isPermaLink="false">
-ChatLab.podbean.com/33387445-7ff0-5241-9836-4654bde15ab9
-</guid>
-<description>
-<p>This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages & more!</p>
-</description>
-<content:encoded>
-<p>This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages & more!</p>
-</content:encoded>
-<enclosure url="https://mcdn.podbean.com/mf/web/byjk4k/Chat_Lab_Pilot_85vdn.mp3" length="55731232" type="audio/mpeg"/>
-<itunes:subtitle>
-This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages & more!
-</itunes:subtitle>
-<itunes:summary>
-This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages & more!
-</itunes:summary>
-<itunes:author>Chat Lab</itunes:author>
-<itunes:explicit>yes</itunes:explicit>
-<itunes:block>No</itunes:block>
-<itunes:duration>58:03</itunes:duration>
-<itunes:episode>1</itunes:episode>
-<itunes:episodeType>full</itunes:episodeType>
-<itunes:image href="https://pbcdn1.podbean.com/imglogo/image-logo/9006352/Chatlab1400px.png"/>
-</item>
+<channel>
+    <title>Chat Lab Podcast</title>
+    <atom:link href="https://kahfree.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://kahfree.github.io/podcast.html</link>
+    <description>This is Chat Lab, where thoughts are tested &amp; subjects are studied.</description>
+    <pubDate>Thu, 16 Jul 2020 23:59:09 +0200</pubDate>
+    <generator>https://kahfree.github.io</generator>
+    <language>en</language>
+        <copyright>Copyright 2020 All rights reserved.</copyright>
+    <category>Leisure</category>
+    <ttl>1440</ttl>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>The podcast where thoughts are tested and subjects are studied</itunes:subtitle>
+    <itunes:summary/>
+    <itunes:author>Chat Lab</itunes:author>
+<itunes:category text="Leisure"/>
+<itunes:category text="TV &amp; Film"/>
+	<itunes:category text="Leisure">
+		<itunes:category text="Games"/>
+	</itunes:category>
+    <itunes:owner>
+        <itunes:name>Chat Lab</itunes:name>
+        <itunes:email>chatlabbusiness@gmail.com</itunes:email>
+    </itunes:owner>
+	<itunes:block>No</itunes:block>
+	<itunes:explicit>yes</itunes:explicit>
+    <itunes:image href="https://i.imgur.com/3PjArAL.png"/>
+    <image>
+        <urlhttps://i.imgur.com/3PjArAL.png</url>
+        <title>Chat Lab Podcast</title>
+        <link>https://kahfree.github.io/podcast.html</link>
+        <width>144</width>
+        <height>144</height>
+    </image>
+    <item>
+        <title>How Did We Meet | Chat Lab Ep.3</title>
+        <itunes:title>How Did We Meet | Chat Lab Ep.3</itunes:title>
+        <link>https://kahfree.github.io/podcast.html</link>
+        <comments>https://kahfree.github.io/podcast.html</comments>
+        <pubDate>Thu, 23 Jul 2020 22:12:45 +0200</pubDate>
+        <guid isPermaLink="false">kahfree.github.io/c420d690-254c-08gd-38hd-48fh20k27f10</guid>
+                    <description><![CDATA[<p>In today's episode, Evan & Ethan describe meeting their first friend as well as meeting each other, their past hobbies, and more! Check out all our socials: https://linktr.ee/ChatLab</p>]]></description>
+                        <content:encoded><![CDATA[<p>In today's episode, Evan & Ethan describe meeting their first friend as well as meeting each other, their past hobbies, and more! Check out all our socials: https://linktr.ee/ChatLab</p>]]></content:encoded>
+                    
+        <enclosure url="https://kahfree.github.io/assets/podcastEpisodes/ChatLabEp3.mp3" length="55578259" type="audio/mpeg"/>
+        <itunes:subtitle>In today's episode, Evan &amp; Ethan describe meeting their first friend as well as meeting each other, their past hobbies, &amp; more! Check out all our socials: https://linktr.ee/ChatLab</itunes:subtitle>
+        <itunes:summary>In today's episode, Evan &amp; Ethan describe meeting their first friend as well as meeting each other, their past hobbies, &amp; more! Check out all our socials: https://linktr.ee/ChatLab</itunes:summary>
+        <itunes:author>Chat Lab</itunes:author>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>57:35</itunes:duration>
+                <itunes:episode>3</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://i.imgur.com/3PjArAL.png"/>    </item>
+    <item>
+        <title>Our Job Experiences | Chat Lab Ep.2</title>
+        <itunes:title>Our Job Experiences | Chat Lab Ep.2</itunes:title>
+        <link>https://kahfree.github.io/podcast.html</link>
+        <comments>https://kahfree.github.io/podcast.html</comments>
+        <pubDate>Thu, 16 Jul 2020 23:59:09 +0200</pubDate>
+        <guid isPermaLink="false">ChatLab.podbean.com/b755d100-0c9a-5f0a-8cea-1c94138ee63c</guid>
+                    <description><![CDATA[<p>Join Evan & Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire & more!</p>]]></description>
+                        <content:encoded><![CDATA[<p>Join Evan & Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire & more!</p>]]></content:encoded>
+                    
+        <enclosure url="https://kahfree.github.io/assets/podcastEpisodes/ChatLabEp2.mp3" length="55578259" type="audio/mpeg"/>
+        <itunes:subtitle>Join Evan &amp; Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire &amp; more!</itunes:subtitle>
+        <itunes:summary>Join Evan &amp; Ethan on today's podcast where they talk about their job experiences, streaming, qualities they desire &amp; more!</itunes:summary>
+        <itunes:author>Chat Lab</itunes:author>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>57:53</itunes:duration>
+                <itunes:episode>2</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://i.imgur.com/3PjArAL.png"/>    </item>
+    <item>
+        <title>What is the best sleeping position? | Chat Lab Ep.1</title>
+        <itunes:title>What is the best sleeping position? | Chat Lab Ep.1</itunes:title>
+        <link>https://kahfree.github.io/podcast.html</link>
+        <comments>https://kahfree.github.io/podcast.html</comments>
+        <pubDate>Fri, 10 Jul 2020 00:14:19 +0200</pubDate>
+        <guid isPermaLink="false">ChatLab.podbean.com/33387445-7ff0-5241-9836-4654bde15ab9</guid>
+                    <description><![CDATA[<p>This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages & more!</p>]]></description>
+                        <content:encoded><![CDATA[<p>This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages & more!</p>]]></content:encoded>
+                    
+        <enclosure url="https://kahfree.github.io/assets/podcastEpisodes/ChatLabPilot.mp3" length="55731232" type="audio/mpeg"/>
+        <itunes:subtitle>This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages &amp; more!</itunes:subtitle>
+        <itunes:summary>This is Chat Lab, where we thoughts are tested and subjects are studied. Join Evan and Ethan in their first-ever podcast episode, discussing sleep, learning new languages &amp; more!</itunes:summary>
+        <itunes:author>Chat Lab</itunes:author>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>58:03</itunes:duration>
+                <itunes:episode>1</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+        <itunes:image href="https://i.imgur.com/3PjArAL.png"/>    </item>
 </channel>
-</rss>
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link"/><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"/><style type="text/css" id="dark-mode-custom-style"/></rss>
