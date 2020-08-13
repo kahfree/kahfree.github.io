@@ -10269,3 +10269,11 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+#podcastImg{
+  width:100%;
+}
+
+#podBlurb{
+  margin-top:15%;
+}
