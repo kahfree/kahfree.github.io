@@ -2,25 +2,18 @@
 <html lang='en'>
     <head>
         <title>
-            Timer app
+            Ethan Caffrey | Pomidoro Timer
         </title>
         <script>
             window.onload = function(){
-                var hours = new Date().getUTCHours();
-                var minutes = new Date().getUTCMinutes();
-                var newMin = minutes + 45;
-                if(newMin > 60){
-                    newMin %= 60;
-                    var newHours = hours+1;
-                }
-                console.log(hours + 'h ' + newMin + 'm ')
-                document.getElementById("currentTime").innerHTML = 'Current Time: ' + hours + 'h ' + minutes + 'm ';
-                document.getElementById('timeTillComplete').innerHTML = 'What time it\'ll be when you\'re done: ' + newHours + 'h ' + newMin + 'm ';
                 var btn = document.getElementById('btn');
                 var number = 0;
                 
                 document.getElementById('btn').onclick = function countdown(){
-                    var mins = 45;
+                    var test = document.getElementById('breakTime');
+                    var result = test.options[test.selectedIndex].value;
+                    console.log(result);
+                    var mins = result;
                     var seconds = 0;
                     setInterval(function(){
 
@@ -29,7 +22,7 @@
                                 seconds = 60;
                             }
                             if(mins == 0 && seconds == 1){
-                                document.getElementById('test').play();
+                                document.getElementById('timeUp').play();
                                 document.getElementById('timer').innerHTML = "Time is up! have a break!";
                                 return
                             }
@@ -58,18 +51,18 @@
                                 seconds = 60;
                             }
                             if(mins == 0 && seconds == 1){
-                                document.getElementById('test').play();
-                                document.getElementById('timer').innerHTML = "Time is up! Get back to work!";
+                                document.getElementById('timeUpBreak').play();
+                                document.getElementById('timerBreak').innerHTML = "Time is up! Get back to work!";
                                 return
                             }
                             seconds -= 1;
                             if(seconds < 10)
                             {
-                                document.getElementById('timer').innerHTML = mins + ': ' + '0' + seconds;
+                                document.getElementById('timerBreak').innerHTML = mins + ': ' + '0' + seconds;
                             }
                             else
                             {
-                            document.getElementById('timer').innerHTML = mins + ': ' + seconds;
+                            document.getElementById('timerBreak').innerHTML = mins + ': ' + seconds;
                             }
                             
 
@@ -81,20 +74,47 @@
 
         <style>
             body{background-color:darkslategray;color:white;text-align: center;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-            #timer, #timerBreak{font-size: 3em;}
-            #btn, #btnBreak{color:white;background-color:lightseagreen;border-radius:15px;border: 0px solid black; font-size:1.5em;padding:.1em 1em;}
+            #timer, #timerBreak{font-size: 15em;}
+            #btn, #btnBreak{color:white;background-color:lightseagreen;border-radius:15px;border: 0px solid black; font-size:7.5em;padding:.1em 1em;}
+            select{display:block; margin:1em auto; font-size:5em;}
+            /*Desktop Rules*/
+            @media only screen and (min-width: 768px){
+                #timer, #timerBreak{font-size:3em;}
+                select{font-size:2em;}
+                #btn, #btnBreak{font-size:2em}
+            }
         </style>
     </head>
 
     <body>
         <h1>Pomidoro Timer</h1>
-        <p id="currentTime">r</p>
-        <h2 id='timer'>45:00</h2>
+        <h2 id='timer'>Pick a Study Time: </h2>
+        <select name='breakTime' id='breakTime'>
+            <option value='5'>5m</option>
+            <option value='10'>10m</option>
+            <option value='15'>15m</option>
+            <option value='20'>20m</option>
+            <option value='25'>25m</option>
+            <option value='30'>30m</option>
+            <option value='35'>35m</option>
+            <option value='40'>40m</option>
+            <option value='45' selected>45m</option>
+            <option value='50'>50m</option>
+            <option value='55'>55m</option>
+            <option value='60'>60m</option>
+        </select>
         <input type="button" value="Start" id="btn"\>
-        <p id='timeTillComplete'>e</p>
-        <audio id='test' src='assets/podcastEpisodes/ChatLabPilot.mp3'></audio>
-        <h2 id='timerBreak'>15:00</h2>
+        <audio id='timeUp' src='assets/podcastEpisodes/Podcast_Intro.mp3'></audio>
+        <h2 id='timerBreak'>Pick a Break Time:</h2>
+
+        <select name='breakTime' id='breakTime'>
+            <option value='5'>5m</option>
+            <option value='10'>10m</option>
+            <option value='15' selected>15m</option>
+            <option value='20'>20m</option>
+        </select>
         <input type="button" value="Start" id="btnBreak"\>
+        <audio id='timeUpBreak' src='assets/podcastEpisodes/Podcast_Intro.mp3'></audio>
 
 
     </body>
