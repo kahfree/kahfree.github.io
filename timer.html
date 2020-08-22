@@ -9,6 +9,13 @@
                 var btn = document.getElementById('btn');
                 var number = 0;
                 
+                var btnHasStopped = false;
+                document.getElementById('btnStop').onclick =  function stopTime()
+                {
+                    document.getElementById('timer').innerHTML = 'Pick a Study Time: ';
+                    btnHasStopped = true;
+                }
+
                 document.getElementById('btn').onclick = function countdown(){
                     var test = document.getElementById('breakTime');
                     var result = test.options[test.selectedIndex].value;
@@ -16,7 +23,11 @@
                     var mins = result;
                     var seconds = 0;
                     setInterval(function(){
-
+                        if(btnHasStopped){
+                            console.log('btn is true, stopping timer...')
+                            return
+                        }
+                        else{
                             if(seconds % 60 == 0){
                                 mins -= 1;
                                 seconds = 60;
@@ -35,17 +46,25 @@
                             {
                             document.getElementById('timer').innerHTML = mins + ': ' + seconds;
                             }
-                            
-
+                        } 
+                         
                         },1000)
                         return
                     }
-                    
+                    document.getElementById('btnStop2').onclick =  function stopTime()
+                {
+                    document.getElementById('timerBreak').innerHTML = 'Pick a Break Time: ';
+                    btnHasStopped = true;
+                }
                     document.getElementById('btnBreak').onclick = function countdownBreak(){
                     var mins = 15;
                     var seconds = 0;
                     setInterval(function(){
-
+                        if(btnHasStopped){
+                            console.log('btn is true, stopping timer...')
+                            return
+                        }
+                        else{
                             if(seconds % 60 == 0){
                                 mins -= 1;
                                 seconds = 60;
@@ -64,7 +83,7 @@
                             {
                             document.getElementById('timerBreak').innerHTML = mins + ': ' + seconds;
                             }
-                            
+                        }
 
                         },1000)
                         return
@@ -75,13 +94,13 @@
         <style>
             body{background-color:darkslategray;color:white;text-align: center;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
             #timer, #timerBreak{font-size: 15em;}
-            #btn, #btnBreak{color:white;background-color:lightseagreen;border-radius:15px;border: 0px solid black; font-size:7.5em;padding:.1em 1em;}
+            .button{color:white;background-color:lightseagreen;border-radius:15px;border: 0px solid black; font-size:7.5em;padding:.1em 1em;}
             select{display:block; margin:1em auto; font-size:5em;}
             /*Desktop Rules*/
             @media only screen and (min-width: 768px){
                 #timer, #timerBreak{font-size:3em;}
                 select{font-size:2em;}
-                #btn, #btnBreak{font-size:2em}
+                .button{font-size:2em}
             }
         </style>
     </head>
@@ -103,7 +122,8 @@
             <option value='55'>55m</option>
             <option value='60'>60m</option>
         </select>
-        <input type="button" value="Start" id="btn"\>
+        <input type="button" value="Start" id="btn" class='button'\>
+        <input type="button" value='Stop' id='btnStop' class='button'\>
         <audio id='timeUp' src='assets/podcastEpisodes/Podcast_Intro.mp3'></audio>
         <h2 id='timerBreak'>Pick a Break Time:</h2>
 
@@ -113,7 +133,8 @@
             <option value='15' selected>15m</option>
             <option value='20'>20m</option>
         </select>
-        <input type="button" value="Start" id="btnBreak"\>
+        <input type="button" value="Start" id="btnBreak" class='button'\>
+        <input type="button" value='Stop' id='btnStop2' class='button'\>
         <audio id='timeUpBreak' src='assets/podcastEpisodes/Podcast_Intro.mp3'></audio>
 
 
